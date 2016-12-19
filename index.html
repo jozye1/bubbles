@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maths & Words Guessing Game</title>
+
+<script src="source/jquery-3.1.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles/style.css" />
+
+</head>
+<body>
+
+<div id="mainContainerDiv">
+  <div id="headerDiv"><h1>--<>-- Welcome Jozye's Learning Games Stop --<>--</h1><h2 id="mainSubtitle">A Place Of Learning & Thinking</h2></div>
+      <h2 id="wordsListTitle">Let's Play Words</h2>
+  <div id="mainWordsDiv">
+    <div id="wordsLevel1" class="wordsLevelsDivs">
+      <div id="wordsL1Round1" class="wordsL1RoundsDivs"></div>
+      <div id="wordsL1Round2" class="wordsL1RoundsDivs"></div>
+      <div id="wordsL1Round3" class="wordsL1RoundsDivs"></div>
+    </div>
+    <div id="wordsLevel2" class="wordsLevelsDivs">
+      <div id="wordsL2Round1" class="wordsL2RoundsDivs"></div>
+      <div id="wordsL2Round2" class="wordsL2RoundsDivs"></div>
+      <div id="wordsL2Round3" class="wordsL2RoundsDivs"></div>
+    </div>
+    <div id="wordsLevel3" class="wordsLevelsDivs">
+      <div id="wordsL3Round1" class="wordsL3RoundsDivs"></div>
+      <div id="wordsL3Round2" class="wordsL3RoundsDivs"></div>
+      <div id="wordsL3Round3" class="wordsL3RoundsDivs"></div>
+    </div>
+  <div id="wordsDisplayDiv">
+    <div id="wordsTimer"></div>
+    <input id="wordsTypedResponses" for="wordsTypedResponses" type="text" name="wordsTypedResponses" placeholder="Please Type In Your Answer" />
+      <br /><input type="button" name="submit" value='Submit Your Answer' id='wordsSubmitButton' />
+      <div id="gamesDescriptions"><strong><u><br />Object Of The Game - There Are 3 Levels & 3 Rounds Per Level - Timed Game Of 1 Minute Per Round:</u></strong>
+                <br /><strong>Words Guessing -</strong> Try to rewrite the word correctly and as fast as you can, before the timer is out, to proceed to the next rounds & levels.
+
+                <br /> Otherwise, You Lose! Best Wishes!
+       </div>
+  </div>
+  </div>
+
+    <h2 id="mathsListTitle">Let's Play Maths</h2>
+  <div id="mainMathsDiv">
+    <div id="mathsLevel1" class="mathsLevelsDivs">
+      <div id="mathsL1Round1" class="mathsL1RoundsDivs"></div>
+      <div id="mathsL1Round2" class="mathsL1RoundsDivs"></div>
+      <div id="mathsL1Round3" class="mathsL1RoundsDivs"></div>
+    </div>
+    <div id="mathsLevel2" class="mathsLevelsDivs">
+      <div id="mathsL2Round1" class="mathsL2RoundsDivs"></div>
+      <div id="mathsL2Round2" class="mathsL2RoundsDivs"></div>
+      <div id="mathsL2Round3" class="mathsL2RoundsDivs"></div>
+    </div>
+    <div id="mathsLevel3" class="mathsLevelsDivs">
+      <div id="mathsL3Round1" class="mathsL3RoundsDivs"></div>
+      <div id="mathsL3Round2" class="mathsL3RoundsDivs"></div>
+      <div id="mathsL3Round3" class="mathsL3RoundsDivs"></div>
+    </div>
+    <div id="mathsDisplayDiv">
+      <div id="mathsTimer"></div>
+      <input id="mathsTypedResponses"  for="mathsTypedResponses" type="number" name="mathsTypedResponses" placeholder="Please Type In Your Answer" />
+        <br /><input type="button" name="submit" value='Submit Your Answer' id='mathsSubmitButton' />
+        <div id="gamesDescriptions"><strong><u><br />Object Of The Game - There Are 3 Levels & 3 Rounds Per Level - Timed Game Of 1 Minute Per Round:</u></strong>
+                <br /><strong>Maths -</strong> Try to answer correctly and as fast as you can, before the timer is out, to proceed to the next rounds & levels.
+                <br /> Otherwise, You Lose! Best Wishes!
+       </div>
+    </div>
+  </div>
+  <div><button type="reset" id='gameReset' value='Reset' title='Reset'><a href='index.html'>Reset</a></button></div>
+</div>
+  <footer>&copy; A Jozye's Production - All Rights Reserved</footer>
+<script src="source/app.js" type="text/javascript"></script>
+
+</body>
+</html>
